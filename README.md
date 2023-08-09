@@ -1,4 +1,4 @@
-# React + Vite
+# Product Shelf
 
 Template que provê as configurações minimas para que o React trabalhe no VITE com HMR (Hot Module Replacement ).
 
@@ -11,16 +11,19 @@ Plugins available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Execução do projeto local / Running the project local environment
+
 ```sh
 yarn dev
 ```
 
-## Build do projeto para deploy  / Building the project for deploy (/dist)
+## Build do projeto para deploy / Building the project for deploy (/dist)
+
 ```sh
 yarn build
 ```
 
 ## Deploy Vercel (https://vercel.com/)
+
 ```sh
 npx vercel ./dist --prod
 ```
