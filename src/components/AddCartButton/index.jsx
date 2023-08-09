@@ -4,7 +4,6 @@ const AddCartButton = () => {
   const [addToCart, setAddToCart] = useState(false);
   const handleAddToCart = () => {
     setAddToCart(true);
-    console.log(addToCart);
   };
   return (
     <button
