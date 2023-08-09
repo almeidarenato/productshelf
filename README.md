@@ -22,5 +22,5 @@ yarn build
 
 ## Deploy Vercel (https://vercel.com/)
 ```sh
-npx vercel ./dist --pro
+npx vercel ./dist --prod
 ```
